@@ -108,6 +108,15 @@ local function register_wool_backpack(colour,colourname)
 			{"wool:"..colour, "wool:"..colour, "wool:"..colour},
 		}
 	})
+
+	minetest.register_craft({
+		output = "backpacks:backpack_wool_brown",
+		recipe = {
+			{"group:wool", "group:wool", "group:wool"},
+			{"group:wool", "",           "group:wool"},
+			{"group:wool", "group:wool", "group:wool"},
+		}
+	})
 end
 
 local wooldyes = {
