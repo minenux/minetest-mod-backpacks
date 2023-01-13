@@ -109,15 +109,16 @@ local function register_wool_backpack(colour,colourname)
 		}
 	})
 
-	minetest.register_craft({
-		output = "backpacks:backpack_wool_brown",
-		recipe = {
-			{"group:wool", "group:wool", "group:wool"},
-			{"group:wool", "",           "group:wool"},
-			{"group:wool", "group:wool", "group:wool"},
-		}
-	})
 end
+
+minetest.register_craft({
+	output = "backpacks:backpack_wool_brown",
+	recipe = {
+		{"group:wool", "group:wool", "group:wool"},
+		{"group:wool", "",           "group:wool"},
+		{"group:wool", "group:wool", "group:wool"},
+	}
+})
 
 local wooldyes = {
         {code = "white",      name = "White"},
@@ -140,7 +141,7 @@ local wooldyes = {
 for _,colourdesc in pairs(wooldyes) do
 	register_wool_backpack(colourdesc.code,colourdesc.name)
 end
-minetest.register_alias("backpacks:backpack_wool", "backpacks:backpack_wool_white")
+minetest.register_alias("backpacks:backpack_wool", "backpacks:backpack_wool_brown")
 
 -- Leather backpack
 minetest.register_node("backpacks:backpack_leather", {
