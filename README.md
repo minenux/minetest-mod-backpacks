@@ -18,7 +18,7 @@ Tech information
 Adds backpacks made of wool and leather, that can **store anything but themselves** 
 in an 16 slots inventory. The backpacks can only be accessed once they're placed. 
 Picking them up preserves their contents. They obey regular protection rules.
-Development is at [https://git.minetest.io/minenux/minetest-mod-spawnrand](https://git.minetest.io/minenux/minetest-mod-spawnrand) codeberg is only for private developers, 
+Development is at [https://git.minetest.io/minenux/minetest-mod-backpacks](https://git.minetest.io/minenux/minetest-mod-backpacks) codeberg is only for private developers, 
 if you want to contribute go to git.minetest.io as must be!
 
 This mod started as a unification effors from forum original
@@ -75,7 +75,7 @@ Code were started by James Stevenson and later continue by Tai Kedzierski https:
 
 License code is GPL3+ check [LICENSE.txt](LICENSE.txt) file. This fork 
 has one exception: You must put the url info in your copy and only allow this url to promotion:
-[https://git.minetest.io/minenux/minetest-mod-spawnrand](https://git.minetest.io/minenux/minetest-mod-spawnrand)
+[https://git.minetest.io/minenux/minetest-mod-backpacks](https://git.minetest.io/minenux/minetest-mod-backpacks)
 
 Original code never get updates and get abandoned so we forked and **rethink the 
 license terms take into consideration the bad promotion that have real minetest spirits, 
