@@ -92,7 +92,7 @@ local function register_wool_backpack(colour,colourname)
 				{-0.25, -0.3125, -0.5, 0.25, 0.125, -0.4375},
 			}
 		},
-		groups = {dig_immediate = 3, oddly_diggable_by_hand = 3},
+		groups = {dig_immediate = 3, oddly_diggable_by_hand = 3, backpack = 1},
 		stack_max = 1,
 		on_construct = backpacks.on_construct,
 		after_place_node = backpacks.after_place_node,
@@ -171,7 +171,7 @@ minetest.register_node("backpacks:backpack_leather", {
 			{-0.25, -0.3125, -0.5, 0.25, 0.125, -0.4375},
 		}
 	},
-	groups = {dig_immediate = 3, oddly_diggable_by_hand = 3},
+	groups = {dig_immediate = 3, oddly_diggable_by_hand = 3, backpack = 1},
 	stack_max = 1,
 	on_construct = backpacks.on_construct,
 	after_place_node = backpacks.after_place_node,
